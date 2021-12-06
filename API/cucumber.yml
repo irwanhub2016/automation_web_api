@@ -1,0 +1,7 @@
+<%
+    common_requires = "--require app --require step_definitions"
+%>
+
+default: <%= common_requires %> --format pretty --format html --out=report/<%= ENV['REPORT_PATH']%>/features_reports.html -f rerun  -o report/<%= ENV['REPORT_PATH']%>/rerun.txt
+# parallel: --format pretty --format html --out report/<%= ENV['REPORT_PATH']%>/features_report_<%= ENV['TEST_ENV_NUMBER']%>.html
+html_report: <%= common_requires %> --format pretty --format html --out=report/<%= ENV['REPORT_PATH']%>/features_reports.html
