@@ -1,4 +1,4 @@
-# Flip :: This project there are 2 parts: Web and API
+:: This project there are 2 parts: Web and API
 
 ###  ⏺ Requirement An Automation Testing Framework for Web
 * Assume you are using environment macOS. For this case i'm using macOS and Ruby 2.5.1
